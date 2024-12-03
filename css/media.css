@@ -1,0 +1,16 @@
+@media only screen and (max-width:992px)
+{
+    nav .logo
+    {
+        width: 50%;
+    }
+    .LINE
+    {
+        opacity: 1;
+    }
+
+    .NAV-BAR
+    {
+        display: none;
+    }
+}
