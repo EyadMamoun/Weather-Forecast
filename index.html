@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <link rel="icon" href="images/rb_5614.png" type="image/x-icon"/>
+        <title>Weather Forecast</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+
+    <body>
+        <!-- START NAVIGATION BAR -->
+        <nav class="w-100 overflow-auto">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="text-white d-flex justify-content-center align-items-center logo">
+                    <div class="w-50">
+                        <img class="w-100" src="images/rb_5614.png" alt="Cloud">
+                    </div>
+                    <div class="w-50">
+                        <h1 class="fs-4 mb-0">Weather</h1>
+                        <p class="fs-6 mb-0">Daily Forecast</p>
+                    </div>
+                </div>
+
+                <div class="w-75 NAV-BAR">
+                    <ul class="list-unstyled text-white d-flex justify-content-end align-items-center mb-0">
+                        <li><a class="HOME" href="">Home</a></li>
+                        <li><a class="nav-decoration" href="">News</a></li>
+                        <li><a class="nav-decoration" href="">Live Cameras</a></li>
+                        <li><a class="nav-decoration" href="">Photos</a></li>
+                        <li><a class="nav-decoration" href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-btn">
+                    <div class="nav-btn-decoration d-flex flex-column justify-content-center align-items-center d-lg-none">
+                        <div class="LINE"></div>
+                        <div class="LINE my-1"></div>
+                        <div class="LINE"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-media d-flex flex-wrap justify-content-center align-items-center d-none">
+                <ul class="list-unstyled text-white text-center">
+                    <li class="py-3"><a class="HOME" href="">Home</a></li>
+                    <li class="py-3"><a class="nav-decoration" href="">News</a></li>
+                    <li class="py-3"><a class="nav-decoration" href="">Live Cameras</a></li>
+                    <li class="py-3"><a class="nav-decoration" href="">Photos</a></li>
+                    <li class="py-3"><a class="nav-decoration" href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- END NAVIGATION BAR -->
+
+        <!-- START MAIN SECTION -->
+        <section class="Main-Section">
+            <div class="Background-Customization"></div>
+            <div class="Solid-Background"></div>
+            <div class="INPUT-OUTPUT container w-75">
+                <div class="pb-3 mb-5">
+                    <input id="Search" placeholder="Enter your location..." type="text" class="INPUT w-100  rounded-pill">
+                </div>
+                <div>
+                    <table class="w-100">
+                        <thead class="tableHead">
+                            <th class="Side-Head1 py-2 d-flex justify-content-between align-items-center">
+                                <!-- <p class="mb-0 ps-2">Friday</p>
+                                <p class="mb-0 pe-2">November</p> -->
+                            </th>
+                            <th class="text-center Middle-Head"></th>
+                            <th class="text-center Side-Head2 py-2"></th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="Side-Body1">
+                                    <!-- <p class="my-3 ms-2 text-light">Cairo</p>
+                                    <h2 class="temp text-white ms-2">19.2°C</h2>
+                                    <div class="currentWeatherStateIcon">
+                                        <img class="w-100" src="images/rb_5614.png" alt="">
+                                    </div>
+                                    <p class="ms-2 fs-6 text-info">Partly cloudy</p>
+                                    <i class="weather-characteristics fa-solid fa-umbrella ms-2"></i><p class="weather-characteristics d-inline-block">20%</p>
+                                    <i class="weather-characteristics fa-solid fa-wind ms-2"></i><p class="weather-characteristics d-inline-block">18Km/h</p>
+                                    <i class="weather-characteristics fa-regular fa-compass ms-2"></i><p class="weather-characteristics d-inline-block">East</p> -->
+                                </td>
+                                <td class="text-center Middle-Body">
+                                    <!-- <div class="forecastWeatherStateIcon mx-auto">
+                                        <img class="w-100" src="images/rb_5614.png" alt="">
+                                    </div>
+                                    <h2 class="fs-3 mt-3">19.2°C</h2>
+                                    <p class="fs-5 text-secondary mb-3">8.8°C</p>
+                                    <p class="fs-6 text-info">Partly Cloudy</p> -->
+                                </td>
+                                <td class="text-center Side-Body2">
+                                    <!-- <div class="forecastWeatherStateIcon mx-auto">
+                                        <img class="w-100" src="images/rb_5614.png" alt="">
+                                    </div>
+                                    <h2 class="fs-3 mt-3">19.2°C</h2>
+                                    <p class="fs-5 text-secondary mb-3">8.8°C</p>
+                                    <p class="fs-6 text-info">Partly Cloudy</p> -->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!-- END MAIN SECTION -->
+
+        <!-- START FOOTER -->
+        <section class="Footer">
+            <div class="container d-flex align-items-start">
+                <div class="overflow-auto w-75">
+                    <div class="position-relative">
+                        <input placeholder="Enter your email to subscribe.." type="email" class="INPUT w-75 mt-5 mb-4 rounded-pill">
+                        <button class="btn btn-info rounded-pill">Subscribe</button>
+                    </div>
+                    <p class="mb-5 text-light">Copyright 2024. Designed by Eyad Mamoun. All rights reserved</p>
+                </div>
+                <div class="d-flex w-25 mt-5">
+                    <div class="BOX d-flex justify-content-center align-items-center">
+                        <a class="BOX-Inside" href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="BOX d-flex justify-content-center align-items-center mx-2">
+                        <a class="BOX-Inside" href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="BOX d-flex justify-content-center align-items-center me-2">
+                        <a class="BOX-Inside" href=""><i class="fa-brands fa-google"></i></a>
+                    </div>
+                    <div class="BOX d-flex justify-content-center align-items-center">
+                        <a class="BOX-Inside" href=""><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END FOOTER -->
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
