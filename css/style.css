@@ -1,0 +1,219 @@
+/* START NAVIGATION BAR */
+nav
+{
+    background-color: #1e202b;
+}
+
+nav .logo
+{
+    width: 20%;
+}
+
+nav li .HOME
+{
+    padding: 3px 25px 4px 25px;
+    text-decoration: none;
+    color: rgb(13, 202, 240);
+    border: solid rgb(13, 202, 240) 2px;
+    border-radius: 15% / 50%;
+}
+
+nav ul .nav-decoration
+{
+    padding: 3px 25px 4px 25px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.4s , border 0.1s;
+}
+nav ul .nav-decoration:hover
+{
+    border: solid LINE 2px;
+    border-radius: 12% / 50%;
+    color: rgb(13, 202, 240);
+}
+
+.LINE
+{
+    height: 3px;
+    width: 28px;
+    background-color: white;
+    transition: background-color 0.5s;
+}
+
+.nav-btn-decoration:hover>.LINE
+{
+    background-color: rgb(13, 202, 240);
+}
+
+.nav-btn-decoration
+{
+    transition: border 0.5s;
+}
+
+.nav-btn-decoration:hover
+{
+    width: 45px;
+    height: 45px;
+    border: solid rgb(13, 202, 240);
+    border-radius: 50%;
+}
+/* END NAVIGATION BAR */
+
+.Background-Customization
+{
+    height: 50%;
+    background-image: url(../images/pexels-lkloeppel-466685.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.Solid-Background
+{
+    height: 50%;
+    background-color: #1e202b;
+}
+
+.Main-Section
+{
+    height: 100vh;
+    position: relative;
+}
+
+.Main-Section .INPUT-OUTPUT
+{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+}
+.INPUT
+{
+    padding-left: 15px;
+    background-color: #1e202b;
+    height: 55px;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.INPUT::placeholder 
+{
+    color: rgb(104, 104, 104);
+    opacity: 1;
+}
+section table .Side-Head1
+{
+    background-color: #282a36;
+    font-size: 17px;
+    color: #bfc1c8;
+    font-weight: 400;
+    border-top-left-radius: 0.7em;
+}
+section table .Side-Head2
+{
+    background-color: #282a36;
+    font-size: 17px;
+    color: #bfc1c8;
+    font-weight: 400;
+    border-top-right-radius: 0.7em;
+    width: 33.33%;
+}
+section table .Middle-Head
+{
+    background-color: #1e202b;
+    font-size: 17px;
+    color: #bfc1c8;
+    font-weight: 400;
+    width: 33.33%;
+}
+section table .Side-Body1
+{
+    background-color: #373943;
+    color: white;
+    font-size: 25px;
+    border-bottom-left-radius: 3%;
+}
+
+.temp
+{
+    font-size: 80px;
+}
+
+.currentWeatherStateIcon
+{
+    height: 120px;
+    width: 120px;
+}
+
+.weather-characteristics
+{
+    font-size: 17px;
+    color: rgb(170, 168, 168);
+}
+
+section table .Side-Body2
+{
+    background-color: #373943;
+    color: white;
+    font-size: 25px;
+    border-bottom-right-radius: 3%;
+}
+section table .Middle-Body
+{
+    background-color: #292b37;
+    color: white;
+    font-size: 50px;
+}
+.forecastWeatherStateIcon
+{
+    height: 55px;
+    width: 55px;
+}
+section table h2
+{
+    font-size: 25px;
+}
+/* section table h1
+{
+    font-size: 90px;
+} */
+
+.Footer
+{
+    background-color: #373943;
+}
+
+.btn
+{
+    position: absolute;
+    right: 25.5%;
+    top: 42%;
+    color: white;
+    padding: 10px 10px;
+}
+
+.BOX
+{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #1e202b;
+    transition: background-color 0.3s , color 0.3s;
+}
+
+.BOX-Inside
+{
+    font-size: 20px;
+    color: rgb(13, 202, 240);
+    text-decoration: none;
+}
+
+.BOX:hover
+{
+    background-color: rgb(13, 202, 240);
+}
+
+.BOX:hover>.BOX-Inside
+{
+    color: white;
+}
