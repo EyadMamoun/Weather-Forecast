@@ -26,7 +26,7 @@ searchInput.addEventListener('keypress',function(eventInfo){
 
 async function getWeather(city)
 {
-    var weather = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=2d22efba7e38403a9a4142730243011&q=${city}&days=2`);
+    var weather = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=<YOUR-API-KEY>&q=${city}&days=2`);
     var finalWeather = await weather.json();
     displayDate(finalWeather);
     displayCurrentWeather(finalWeather);
